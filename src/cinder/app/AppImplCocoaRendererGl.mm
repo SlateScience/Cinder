@@ -177,7 +177,7 @@ if( ! view )
 			NSOpenGLPFAWindow,
 			NSOpenGLPFADoubleBuffer,
 			NSOpenGLPFADepthSize, (NSOpenGLPixelFormatAttribute)24,
-/*kCGLPFAStencilSize, (CGLPixelFormatAttribute) 8,*/
+			NSOpenGLPFAStencilSize, (NSOpenGLPixelFormatAttribute)8,
 			(NSOpenGLPixelFormatAttribute)0
 		};
 
@@ -188,8 +188,8 @@ if( ! view )
 			NSOpenGLPFAWindow,
 			NSOpenGLPFADoubleBuffer,
 			NSOpenGLPFADepthSize, (NSOpenGLPixelFormatAttribute)24,
-/*	kCGLPFAStencilSize, (CGLPixelFormatAttribute) 8,*/
-	        NSOpenGLPFASampleBuffers, (NSOpenGLPixelFormatAttribute)1, 
+			NSOpenGLPFAStencilSize, (NSOpenGLPixelFormatAttribute)8,
+	        NSOpenGLPFASampleBuffers, (NSOpenGLPixelFormatAttribute)1,
 			NSOpenGLPFASamples, (NSOpenGLPixelFormatAttribute)cinder::app::RendererGl::sAntiAliasingSamples[antialiasLevel],
 			NSOpenGLPFAMultisample,
 //			(NSOpenGLPixelFormatAttribute)1,
