@@ -1,3 +1,6 @@
+This Cinder fork tree is based on Cinder 0.8.5 release.
+
+
 ### Cinder 0.8.5: [libcinder.org](http://libcinder.org)
 
 **Cinder is a peer-reviewed, free, open source C++ library for creative coding.**
