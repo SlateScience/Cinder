@@ -8,8 +8,6 @@ xcuserdata/
 .DS_Store
 
 build/
-lib/libcinder*.a
-lib/cinder*.lib
 
 # Windows cruft
 *.suo
