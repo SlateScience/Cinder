@@ -7,9 +7,6 @@
 [submodule "boost"]
 	path = boost
 	url = git://github.com/cinder/Cinder-Boost.git
-[submodule "blocks/chronotext"]
-	path = blocks/chronotext
-	url = https://github.com/arielm/new-chronotext-toolkit
 [submodule "blocks/FMOD"]
 	path = blocks/FMOD
 	url = https://github.com/arielm/FMOD
@@ -22,3 +19,6 @@
 [submodule "blocks/Box2D"]
 	path = blocks/Box2D
 	url = https://github.com/SlateScience/Box2D
+[submodule "blocks/new-chronotext-toolkit"]
+	path = blocks/new-chronotext-toolkit
+	url = https://github.com/arielm/new-chronotext-toolkit
