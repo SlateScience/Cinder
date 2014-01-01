@@ -25,3 +25,6 @@
 [submodule "blocks/SpiderMonkey"]
 	path = blocks/SpiderMonkey
 	url = https://github.com/SlateScience/SpiderMonkey
+[submodule "blocks/Freetype"]
+	path = blocks/Freetype
+	url = https://arielm@github.com/arielm/Freetype.git
