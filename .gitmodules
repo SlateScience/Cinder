@@ -19,9 +19,6 @@
 [submodule "blocks/Box2D"]
 	path = blocks/Box2D
 	url = https://github.com/SlateScience/Box2D
-[submodule "blocks/new-chronotext-toolkit"]
-	path = blocks/new-chronotext-toolkit
-	url = https://github.com/arielm/new-chronotext-toolkit
 [submodule "blocks/SpiderMonkey"]
 	path = blocks/SpiderMonkey
 	url = https://github.com/SlateScience/SpiderMonkey
