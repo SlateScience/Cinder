@@ -298,8 +298,6 @@ class App {
 	//! is power management enabled, allowing screensavers and the system's power management to hide the application
 	virtual bool	isPowerManagementEnabled() const { return mPowerManagement; }
 	
-	//! Returns the dots per inch: some hardcoded value on Mac
-	int					getDpi() const { return 300 ; }
 	//! Returns the width of the App's current window measured in points
 	int					getWindowWidth() const { return getWindow()->getWidth(); }
 	//! Returns the height of the App's current window measured in points
