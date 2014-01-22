@@ -25,3 +25,6 @@
 [submodule "blocks/Freetype"]
 	path = blocks/Freetype
 	url = https://arielm@github.com/arielm/Freetype.git
+[submodule "blocks/hb-icu"]
+	path = blocks/hb-icu
+	url = https://arielm@github.com/arielm/hb-icu.git
