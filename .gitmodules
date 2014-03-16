@@ -28,3 +28,7 @@ url=https://github.com/SlateScience/SpiderMonkey-dist
 [submodule "blocks/hb-icu"]
 	path = blocks/hb-icu
 	url = https://arielm@github.com/arielm/hb-icu.git
+[submodule "samples/Unicode"]
+	path = samples/Unicode
+	url = https://github.com/arielm/Unicode
+	branch = develop
