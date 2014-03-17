@@ -32,3 +32,7 @@ url=https://github.com/SlateScience/SpiderMonkey-dist
 	path = samples/Unicode
 	url = https://github.com/arielm/Unicode
 	branch = develop
+[submodule "blocks/new-chronotext-toolkit"]
+	path = blocks/new-chronotext-toolkit
+	url = https://github.com/SlateScience/new-chronotext-toolkit
+	branch = develop
