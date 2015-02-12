@@ -21,7 +21,7 @@
 	url = https://github.com/SlateScience/Box2D
 [submodule "blocks/SpiderMonkey"]
 	path = blocks/SpiderMonkey
-url=https://github.com/SlateScience/SpiderMonkey-dist
+url=https://github.com/SlateScience/Spidermonkey/tree/chr_25/blocks/Spidermonkey25
 [submodule "blocks/Freetype"]
 	path = blocks/Freetype
 	url = https://arielm@github.com/arielm/Freetype.git
