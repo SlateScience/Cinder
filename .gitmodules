@@ -12,7 +12,7 @@
 	url = https://github.com/arielm/FMOD
 [submodule "blocks/POCO"]
 	path = blocks/POCO
-	url = https://github.com/arielm/POCO
+	url = https://github.com/SlateScience/POCO-1
 [submodule "blocks/OSC"]
 	path = blocks/OSC
 	url = https://github.com/arielm/OSC
