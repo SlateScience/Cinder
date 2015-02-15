@@ -6,7 +6,7 @@
 	url = git://github.com/cinder/TinderBox-Win.git
 [submodule "boost"]
 	path = boost
-	url = git://github.com/cinder/Cinder-Boost.git
+	url = git://github.com/SlateScience/Cinder-Boost.git
 [submodule "blocks/FMOD"]
 	path = blocks/FMOD
 	url = https://github.com/arielm/FMOD
