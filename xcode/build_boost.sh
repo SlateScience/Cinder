@@ -12,6 +12,8 @@ if [[ ! $CINDER_PATH ]]; then
     exit 1
 fi
 
+# change build config to add ios libs for all architectures
+cp $CINDER_PATH/xcode/user-config.jam $BOOST_SRC_PATH/tools/build/v2/user-config.jam
 
 cd $BOOST_SRC_PATH
 
