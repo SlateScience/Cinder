@@ -2551,11 +2551,8 @@
 				INSTALL_PATH = /usr/local/lib;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CPLUSPLUSFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = (
-					../lib/ios/libboost_filesystem.a,
-					../lib/ios/libboost_system.a,
-					../lib/ios/libboost_date_time.a,
-				);
+				OTHER_LDFLAGS = "";
+				PRELINK_LIBS = "../lib/ios/libboost_system.a ../lib/ios/libboost_date_time.a ../lib/ios/libboost_filesystem.a";
 				PRODUCT_NAME = "cinder-iphone_d";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2580,11 +2577,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "";
 				OTHER_CPLUSPLUSFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = (
-					../lib/ios/libboost_filesystem.a,
-					../lib/ios/libboost_system.a,
-					../lib/ios/libboost_date_time.a,
-				);
+				OTHER_LDFLAGS = "";
+				PRELINK_LIBS = "../lib/ios/libboost_system.a ../lib/ios/libboost_date_time.a ../lib/ios/libboost_filesystem.a";
 				PRODUCT_NAME = "cinder-iphone";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
