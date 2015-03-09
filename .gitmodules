@@ -33,3 +33,6 @@ url=https://github.com/SlateScience/SpiderMonkey-dist
 	path = blocks/new-chronotext-toolkit
 	url = https://github.com/SlateScience/new-chronotext-toolkit
 	branch = develop
+[submodule "blocks/FMOD"]
+	path = blocks/FMOD
+	url = https://github.com/SlateScience/FMOD
