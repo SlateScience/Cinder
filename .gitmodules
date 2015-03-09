@@ -7,9 +7,6 @@
 [submodule "boost"]
 	path = boost
 	url = git://github.com/cinder/Cinder-Boost.git
-[submodule "blocks/FMOD"]
-	path = blocks/FMOD
-url=https://github.com/SlateScience/FMOD
 [submodule "blocks/POCO"]
 	path = blocks/POCO
 	url = https://github.com/SlateScience/POCO-1
