@@ -10,9 +10,6 @@
 [submodule "blocks/POCO"]
 	path = blocks/POCO
 	url = https://github.com/SlateScience/POCO-1
-[submodule "blocks/OSC"]
-	path = blocks/OSC
-	url = https://github.com/arielm/OSC
 [submodule "blocks/Box2D"]
 	path = blocks/Box2D
 	url = https://github.com/SlateScience/Box2D
