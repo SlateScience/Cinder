@@ -58,7 +58,8 @@ class JsonTree {
 		NODE_UNKNOWN, NODE_NULL, NODE_ARRAY, NODE_OBJECT, NODE_VALUE
 	} NodeType;
 
-	typedef enum 
+public:
+	typedef enum
 	{ 
 		VALUE_BOOL, VALUE_DOUBLE, VALUE_INT, VALUE_STRING, VALUE_UINT
 	} ValueType;
@@ -270,6 +271,10 @@ private:
 
   public:
 
+    ValueType getValueType()
+    {
+        return mValueType;
+    }
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	//! Base class for JsonTree exceptions.
